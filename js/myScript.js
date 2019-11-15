@@ -1,126 +1,4 @@
-document.addEventListener("keydown", function(e) {
-
-    switch (e.keyCode) {
-
-        case 49: // 1 
-            key1();
-            break;
-        case 50: // 2
-            key2();
-            break;
-        case 51: // 3
-            key3();
-            break;
-        case 52: // 4
-            key4();
-            break;
-        case 53: // 5
-            key5();
-            break;
-        case 54: // 6
-            key6();
-            break;
-
-        case 55: // 7
-            key7();
-            break;
-
-        case 56: // 8
-            key8();
-            break;
-        case 57: // 9
-            key9();
-            break;
-
-        case 48: // 0
-            key0();
-            break;
-        case 81: // q
-            keyq();
-            break;
-        case 87: // w
-            keyw();
-            break;
-        case 69: // e
-            keye();
-            break;
-        case 82: // r
-            keyr();
-            break;
-        case 84: // t
-            keyt();
-            break;
-        case 89: // y
-            keyy();
-            break;
-        case 85: // u
-            keyu();
-            break;
-
-        case 73: // i
-            keyi();
-            break;
-        case 79: // o
-            keyo();
-            break;
-        case 80: // p
-            keyp();
-            break;
-        case 65: // a
-            keya();
-            break;
-        case 83: // s
-            keys()
-            break;
-        case 68: // d
-            keyd()
-            break;
-        case 70: //f
-            keyf()
-            break;
-        case 71: // g
-            keyg();
-            break;
-        case 72: //h
-            keyh();
-            break;
-        case 74: // j
-            keyj();
-            break;
-        case 75: // k
-            keyk();
-            break;
-        case 76: // l
-            keyl()
-            break;
-        case 90: // z
-            keyz()
-            break;
-        case 88: //x
-            keyx()
-            break;
-        case 67: //c
-            keyc()
-            break;
-        case 86: //v
-            keyv()
-            break;
-        case 66: //b
-            keyb()
-            break;
-        case 78: //n
-            keyn()
-            break;
-
-        case 77: //m
-            keym();
-            break;
-
-
-    }
-
-});
-
+//white key
 function key1() {
     document.getElementById('c2').currentTime = 0;
     document.getElementById('c2').play();
@@ -325,144 +203,175 @@ function keyb() {
     document.getElementById('a6').play();
     document.getElementById('b-key').style.backgroundColor = "rgb(40, 40, 40)";
 }
-
-function keyn() {
-    document.getElementById('b6').currentTime = 0;
-    document.getElementById('b6').play();
-    document.getElementById('n-key').style.backgroundColor = "rgb(40, 40, 40)";
+// black key
+function keys1() {
+    document.getElementById('cc2').currentTime = 0;
+    document.getElementById('cc2').play();
+    document.getElementById('s1-key').style.backgroundColor = "rgb(40, 40, 40)";
 }
 
-function keym() {
-    document.getElementById('c7').currentTime = 0;
-    document.getElementById('c7').play();
-    document.getElementById('m-key').style.backgroundColor = "rgb(40, 40, 40)";
+function keys2() {
+    document.getElementById('dd2').currentTime = 0;
+    document.getElementById('dd2').play();
+    document.getElementById('s2-key').style.backgroundColor = "rgb(40, 40, 40)";
 }
 
-document.addEventListener("keyup", function(e) {
-    switch (e.keyCode) {
 
-        case 49: // 1 
-            key1up();
-            break;
+function keys4() {
+    document.getElementById('ff2').currentTime = 0;
+    document.getElementById('ff2').play();
+    document.getElementById('s4-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-        case 50: // 2
-            key2up();
-            break;
+function keys5() {
+    document.getElementById('gg2').currentTime = 0;
+    document.getElementById('gg2').play();
+    document.getElementById('s5-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-        case 51: // 3
-            key3up();
-            break;
+function keys6() {
+    document.getElementById('aa2').currentTime = 0;
+    document.getElementById('aa2').play();
+    document.getElementById('s6-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-        case 52: // 4
-            key4up();
-            break;
 
-        case 53: // 5
-            key5up();
-            break;
 
-        case 54: // 6
-            key6up();
+function keys8() {
+    document.getElementById('cc3').currentTime = 0;
+    document.getElementById('cc3').play();
+    document.getElementById('s8-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-            break;
+function keys9() {
+    document.getElementById('dd3').currentTime = 0;
+    document.getElementById('dd3').play();
+    document.getElementById('s9-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-        case 55: // 7
-            key7up();
 
-            break;
 
-        case 56: // 8
-            key8up();
-            break;
-        case 57: // 9
-            key9up();
-            break;
+function keysq() {
+    document.getElementById('ff3').currentTime = 0;
+    document.getElementById('ff3').play();
+    document.getElementById('sq-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-        case 48: // 0
-            key0up();
-            break;
-        case 81: // q
-            keyqup();
-            break;
-        case 87: // w
-            keywup();
-            break;
-        case 69: // e
-            keyeup();
-            break;
-        case 82: // r
-            keyrup();
-            break;
-        case 84: // t
-            keytup();
-            break;
-        case 89: // y
-            keyyup();
-            break;
-        case 85: // u
-            keyuup();
-            break;
+function keysw() {
+    document.getElementById('gg3').currentTime = 0;
+    document.getElementById('gg3').play();
+    document.getElementById('sw-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-        case 73: // i
-            keyiup();
-            break;
-        case 79: // o
-            keyoup();
-            break;
-        case 80: // p
-            keypup();
-            break;
-        case 65: // a
-            keyaup();
-            break;
-        case 83: // s
-            keysup();
-            break;
-        case 68: // d
-            keydup();
-            break;
-        case 70: //f
-            keyfup();
-            break;
-        case 71: // g
-            keygup();
-            break;
-        case 72: //h
-            keyhup();
-            break;
-        case 74: // j
-            keyjup();
-            break;
-        case 75: // k
-            keykup();
-            break;
-        case 76: // l
-            keylup();
-            break;
-        case 90: // z
-            keyzup();
-            break;
-        case 88: //x
-            keyxup();
-            break;
-        case 67: //c
-            keycup();
-            break;
-        case 86: //v
-            keyvup();
-            break;
-        case 66: //b
-            keybup();
-            break;
-        case 78: //n
-            keynup();
-            break;
+function keyse() {
+    document.getElementById('aa3').currentTime = 0;
+    document.getElementById('aa3').play();
+    document.getElementById('se-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 
-        case 77: //m
-            keymup();
-            break;
-    }
-});
+
+
+function keyst() {
+    document.getElementById('cc4').currentTime = 0;
+    document.getElementById('cc4').play();
+    document.getElementById('st-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysy() {
+    document.getElementById('dd4').currentTime = 0;
+    document.getElementById('dd4').play();
+    document.getElementById('sy-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+
+function keysi() {
+    document.getElementById('ff4').currentTime = 0;
+    document.getElementById('ff4').play();
+    document.getElementById('si-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keyso() {
+    document.getElementById('gg4').currentTime = 0;
+    document.getElementById('gg4').play();
+    document.getElementById('so-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysp() {
+    document.getElementById('aa4').currentTime = 0;
+    document.getElementById('aa4').play();
+    document.getElementById('sp-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+
+
+function keyss() {
+    document.getElementById('cc5').currentTime = 0;
+    document.getElementById('cc5').play();
+    document.getElementById('ss-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysd() {
+    document.getElementById('dd5').currentTime = 0;
+    document.getElementById('dd5').play();
+    document.getElementById('sd-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+
+
+function keysg() {
+    document.getElementById('ff5').currentTime = 0;
+    document.getElementById('ff5').play();
+    document.getElementById('sg-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysh() {
+    document.getElementById('gg5').currentTime = 0;
+    document.getElementById('gg5').play();
+    document.getElementById('sh-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysj() {
+    document.getElementById('aa5').currentTime = 0;
+    document.getElementById('aa5').play();
+    document.getElementById('sj-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+
+
+function keysl() {
+    document.getElementById('cc6').currentTime = 0;
+    document.getElementById('cc6').play();
+    document.getElementById('sl-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysz() {
+    document.getElementById('dd6').currentTime = 0;
+    document.getElementById('dd6').play();
+    document.getElementById('sz-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+
+
+function keysc() {
+    document.getElementById('ff6').currentTime = 0;
+    document.getElementById('ff6').play();
+    document.getElementById('sc-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysv() {
+    document.getElementById('gg6').currentTime = 0;
+    document.getElementById('gg6').play();
+    document.getElementById('sv-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keysb() {
+    document.getElementById('aa6').currentTime = 0;
+    document.getElementById('aa6').play();
+    document.getElementById('sb-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+
+
 
 function key1up() {
     document.getElementById("1-key").style.backgroundColor = "white";
@@ -606,4 +515,135 @@ function keynup() {
 
 function keymup() {
     document.getElementById("m-key").style.backgroundColor = "white";
+}
+//black key
+
+function keys1up() {
+    document.getElementById("s1-key").style.backgroundColor = "black";
+}
+
+function keys2up() {
+    document.getElementById("s2-key").style.backgroundColor = "black";
+}
+
+function keys4up() {
+    document.getElementById("s4-key").style.backgroundColor = "black";
+}
+
+function keys5up() {
+    document.getElementById("s5-key").style.backgroundColor = "black";
+}
+
+function keys6up() {
+    document.getElementById("s6-key").style.backgroundColor = "black";
+}
+
+function keys8up() {
+    document.getElementById("s8-key").style.backgroundColor = "black";
+}
+
+function keys9up() {
+    document.getElementById("s9-key").style.backgroundColor = "black";
+}
+
+function keysqup() {
+    document.getElementById("sq-key").style.backgroundColor = "black";
+}
+
+function keyswup() {
+    document.getElementById("sw-key").style.backgroundColor = "black";
+}
+
+function keyseup() {
+    document.getElementById("se-key").style.backgroundColor = "black";
+}
+
+function keystup() {
+    document.getElementById("st-key").style.backgroundColor = "black";
+}
+
+function keysyup() {
+    document.getElementById("sy-key").style.backgroundColor = "black";
+}
+
+function keysiup() {
+    document.getElementById("si-key").style.backgroundColor = "black";
+}
+
+function keysoup() {
+    document.getElementById("so-key").style.backgroundColor = "black";
+}
+
+function keyspup() {
+    document.getElementById("sp-key").style.backgroundColor = "black";
+}
+
+function keyssup() {
+    document.getElementById("ss-key").style.backgroundColor = "black";
+}
+
+function keysdup() {
+    document.getElementById("sd-key").style.backgroundColor = "black";
+}
+
+function keysgup() {
+    document.getElementById("sg-key").style.backgroundColor = "black";
+}
+
+function keyshup() {
+    document.getElementById("sh-key").style.backgroundColor = "black";
+}
+
+function keysjup() {
+    document.getElementById("sj-key").style.backgroundColor = "black";
+}
+
+function keyslup() {
+    document.getElementById("sl-key").style.backgroundColor = "black";
+}
+
+function keyszup() {
+    document.getElementById("sz-key").style.backgroundColor = "black";
+}
+
+function keyscup() {
+    document.getElementById("sc-key").style.backgroundColor = "black";
+}
+
+function keysvup() {
+    document.getElementById("sv-key").style.backgroundColor = "black";
+}
+
+function keysbup() {
+    document.getElementById("sb-key").style.backgroundColor = "black";
+}
+
+
+//funtion include to html
+function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /* Loop through a collection of all HTML elements: */
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("include-html");
+        if (file) {
+            /* Make an HTTP request using the attribute value as the file name: */
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                    if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                    if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                    /* Remove the attribute, and call this function once more: */
+                    elmnt.removeAttribute("include-html");
+                    includeHTML();
+                }
+            }
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /* Exit the function: */
+            return;
+        }
+    }
 }
