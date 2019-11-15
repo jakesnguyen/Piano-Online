@@ -2,26 +2,29 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>Jakes - Piano Online</title>
     <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="js/myScript.js"></script>
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
 
-
+    <b>
     <div class="header">
 
     </div>
     <div class="piano">
 
         <div class="piano-menu">
-
+<h1>Jakes - Piano Online</h1>
+<h4>Beta Version 0.1 </h4>
         </div>
         <div class="piano-key-container">
             <div class="piano-white-key-container">
 
                 <div class="piano-black-key-container">
-                    <div data-key="16" data-key="49" class="piano-black-key">
+                    <div class="piano-black-key">
                         <p>shift 1</p>
                     </div>
                     <div class="piano-black-key">
@@ -135,137 +138,272 @@
 
                 </div>
 
-                <div data-key="49" class="piano-white-key first-key">
+                <div  id="1-key" onmousedown="key1()" onmouseup="key1up()" onmouseout="key1up()"  class="piano-white-key first-key">
                     <p>1</p>
+
                 </div>
-                <div class="piano-white-key">
+                <div id="2-key" onmousedown="key2()" onmouseup="key2up()" onmouseout="key2up()" class="piano-white-key">
                     <p>2</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="3-key" onmousedown="key3()" onmouseup="key3up()" onmouseout="key3up()"  class="piano-white-key">
                     <p>3</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="4-key" onmousedown="key4()" onmouseup="key4up()" onmouseout="key4up()" class="piano-white-key">
                     <p>4</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="5-key" onmousedown="key5()" onmouseup="key5up()" onmouseout="key5up()" class="piano-white-key">
                     <p>5</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="6-key"  onmousedown="key6()" onmouseup="key6up()"  onmouseout="key6up()" class="piano-white-key">
                     <p>6</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="7-key"  onmousedown="key7()" onmouseup="key7up()"  onmouseout="key7up()" class="piano-white-key">
                     <p>7</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="8-key" onmousedown="key8()" onmouseup="key8up()"  onmouseout="key8up()" class="piano-white-key">
                     <p>8</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div  id="9-key" onmousedown="key9()" onmouseup="key9up()"  onmouseout="key9up()" class="piano-white-key">
                     <p>9</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="0-key"  onmousedown="key0()" onmouseup="key0up()"  onmouseout="key0up()" class="piano-white-key">
                     <p>0</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="q-key"  onmousedown="keyq()" onmouseup="keyqup()"  onmouseout="keyqup()" class="piano-white-key">
                     <p>q</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="w-key"  onmousedown="keyw()" onmouseup="keywup()"  onmouseout="keywup()" class="piano-white-key">
                     <p>w</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div  id="e-key"  onmousedown="keye()" onmouseup="keyeup()" onmouseout="keye3up()"  class="piano-white-key">
                     <p>e</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="r-key"  onmousedown="keyr()" onmouseup="keyrup()" onmouseout="keyrup()"  class="piano-white-key">
                     <p>r</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="t-key"  onmousedown="keyt()" onmouseup="keytup()"  onmouseout="keytup()" class="piano-white-key">
                     <p>t</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="y-key"  onmousedown="keyy()" onmouseup="keyyup()" onmouseout="keyyup()"  class="piano-white-key">
                     <p>y</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="u-key"  onmousedown="keyu()" onmouseup="keyuup()" onmouseout="keyuup()"  class="piano-white-key">
                     <p>u</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="i-key"  onmousedown="keyi()" onmouseup="keyiup()" onmouseout="keyiup()"  class="piano-white-key">
                     <p>i</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="o-key" onmousedown="keyo()" onmouseup="keyoup()" onmouseout="keyoup()"  class="piano-white-key">
                     <p>o</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="p-key"  onmousedown="keyp()" onmouseup="keypup()" onmouseout="keypup()"  class="piano-white-key">
                     <p>p</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="a-key" onmousedown="keya()" onmouseup="keyaup()"  onmouseout="keyaup()"  class="piano-white-key">
                     <p>a</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="s-key"   onmousedown="keys()" onmouseup="keysup()" onmouseout="keysup()" class="piano-white-key">
                     <p>s</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div  id="d-key" onmousedown="keyd()" onmouseup="keydup()"  onmouseout="keydup()" class="piano-white-key">
                     <p>d</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="f-key"  onmousedown="keyf()" onmouseup="keyfup()"  onmouseout="keyfup()" class="piano-white-key">
                     <p>f</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="g-key"  onmousedown="keyg()" onmouseup="keygup()" onmouseout="keygup()"   class="piano-white-key">
                     <p>g</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="h-key" onmousedown="keyh()" onmouseup="keyhup()"  onmouseout="keyhup()"  class="piano-white-key">
                     <p>h</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="j-key" onmousedown="keyj()" onmouseup="keyjup()" onmouseout="keyjup()"  class="piano-white-key">
                     <p>j</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="k-key"  onmousedown="keyk()" onmouseup="keykup()" onmouseout="keykup()"  class="piano-white-key">
                     <p>k</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="l-key"  onmousedown="keyl()" onmouseup="keylup()" onmouseout="keylup()"  class="piano-white-key">
                     <p>l</p>
                 </div>
-                <div class="piano-white-key">
+                <div  id="z-key" onmousedown="keyz()" onmouseup="keyzup()" onmouseout="keyzup()"  class="piano-white-key">
                     <p>z</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="x-key" onmousedown="keyx()" onmouseup="keyxup()" onmouseout="keyxup()"  class="piano-white-key">
                     <p>x</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="c-key"  onmousedown="keyc()" onmouseup="keycup()" onmouseout="keycup()" class="piano-white-key">
                     <p>c</p>
                 </div>
 
-                <div class="piano-white-key">
+                <div id="v-key"  onmousedown="keyv()" onmouseup="keyvup()" onmouseout="keyvup()"  class="piano-white-key">
                     <p>v</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="b-key"   onmousedown="keyb()" onmouseup="keybup()" onmouseout="keybup()" class="piano-white-key">
                     <p>b</p>
                 </div>
-                <div class="piano-white-key">
+                <div id="n-key"   onmousedown="keyn()" onmouseup="keynup()" onmouseout="keynup()" class="piano-white-key">
                     <p>n</p>
                 </div>
-                <div class="piano-white-key last-key">
+                <div id="m-key"   onmousedown="keym()" onmouseup="keymup()" onmouseout="keymup()" class="piano-white-key last-key">
                     <p>m</p>
                 </div>
 
+            </b>
+    </div>
 
-            </div>
-
-        </div>
+    </div>
     </div>
     <div class="footer">
 
     </div>
+    <!-- C-->
+    <audio id="c2" controls style="display:none">
+        <source src="sounds/white key/c2.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="c3" controls style="display:none">
+        <source src="sounds/white key/c3.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="c4" controls style="display:none">
+        <source src="sounds/white key/c4.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="c5" controls style="display:none">
+        <source src="sounds/white key/c5.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="c6" controls style="display:none">
+        <source src="sounds/white key/c6.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="c7" controls style="display:none">
+        <source src="sounds/white key/c7.mp3" type="audio/mpeg">
+      </audio>
+    <!-- D-->
 
-    <audio data-key="49" src="sounds/clap.wav"></audio>
+
+    <audio id="d2" controls style="display:none">
+        <source src="sounds/white key/d2.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="d3" controls style="display:none">
+        <source src="sounds/white key/d3.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="d4" controls style="display:none">
+        <source src="sounds/white key/d4.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="d5" controls style="display:none">
+        <source src="sounds/white key/d5.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="d6" controls style="display:none">
+        <source src="sounds/white key/d6.mp3" type="audio/mpeg">
+      </audio>
+    <!-- E-->
+
+
+    <audio id="e2" controls style="display:none">
+        <source src="sounds/white key/e2.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="e3" controls style="display:none">
+        <source src="sounds/white key/e3.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="e4" controls style="display:none">
+        <source src="sounds/white key/e4.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="e5" controls style="display:none">
+        <source src="sounds/white key/e5.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="e6" controls style="display:none">
+        <source src="sounds/white key/e6.mp3" type="audio/mpeg">
+      </audio>
+    <!-- F-->
+
+
+    <audio id="f2" controls style="display:none">
+        <source src="sounds/white key/f2.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="f3" controls style="display:none">
+        <source src="sounds/white key/f3.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="f4" controls style="display:none">
+        <source src="sounds/white key/f4.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="f5" controls style="display:none">
+        <source src="sounds/white key/f5.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="f6" controls style="display:none">
+        <source src="sounds/white key/f6.mp3" type="audio/mpeg">
+      </audio>
+    <!-- G-->
+
+    <audio id="g2" controls style="display:none">
+        <source src="sounds/white key/g2.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="g3" controls style="display:none">
+        <source src="sounds/white key/g3.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="g4" controls style="display:none">
+        <source src="sounds/white key/g4.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="g5" controls style="display:none">
+        <source src="sounds/white key/g5.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="g6" controls style="display:none">
+        <source src="sounds/white key/g6.mp3" type="audio/mpeg">
+      </audio>
+
+    <!-- B-->
+
+    <audio id="b2" controls style="display:none">
+            <source src="sounds/white key/b2.mp3" type="audio/mpeg">
+          </audio>
+    <audio id="b3" controls style="display:none">
+            <source src="sounds/white key/b3.mp3" type="audio/mpeg">
+          </audio>
+    <audio id="b4" controls style="display:none">
+            <source src="sounds/white key/b4.mp3" type="audio/mpeg">
+          </audio>
+    <audio id="b5" controls style="display:none">
+            <source src="sounds/white key/b5.mp3" type="audio/mpeg">
+          </audio>
+    <audio id="b6" controls style="display:none">
+            <source src="sounds/white key/b6.mp3" type="audio/mpeg">
+          </audio>
+
+
+    <!-- A-->
+    <audio id="a2" controls style="display:none">
+        <source src="sounds/white key/a2.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="a3" controls style="display:none">
+        <source src="sounds/white key/a3.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="a4" controls style="display:none">
+        <source src="sounds/white key/a4.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="a5" controls style="display:none">
+        <source src="sounds/white key/a5.mp3" type="audio/mpeg">
+      </audio>
+    <audio id="a6" controls style="display:none">
+        <source src="sounds/white key/a6.mp3" type="audio/mpeg">
+      </audio>
+
+    <!--#1-->
+
+    <!--#1-->
+
+    <!--#1-->
+
+    <!--#1-->
+
+    <!--#1-->
 </body>
 
 </html>
