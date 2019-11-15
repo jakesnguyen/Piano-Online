@@ -407,7 +407,7 @@ document.addEventListener("keyup", function(e) {
             keyiup();
             break;
         case 79: // o
-            keyop();
+            keyoup();
             break;
         case 80: // p
             keypup();
