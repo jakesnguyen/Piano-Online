@@ -454,7 +454,12 @@ document.addEventListener("keydown", function(e) {
             case 66: //b
                 keyb()
                 break;
-
+            case 78: //n
+                keyn()
+                break;
+            case 77: //m
+                keym()
+                break;
         }
     }
 

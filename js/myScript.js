@@ -203,6 +203,18 @@ function keyb() {
     document.getElementById('a6').play();
     document.getElementById('b-key').style.backgroundColor = "rgb(40, 40, 40)";
 }
+
+function keyn() {
+    document.getElementById('g6').currentTime = 0;
+    document.getElementById('g6').play();
+    document.getElementById('n-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
+
+function keym() {
+    document.getElementById('c7').currentTime = 0;
+    document.getElementById('c7').play();
+    document.getElementById('m-key').style.backgroundColor = "rgb(40, 40, 40)";
+}
 // black key
 function keys1() {
     document.getElementById('cc2').currentTime = 0;
